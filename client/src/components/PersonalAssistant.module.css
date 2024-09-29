@@ -1,0 +1,59 @@
+.container {
+  background-color: #22222e;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.homeLink {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.imageContainer {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  width: fit-content;
+  margin: 0 auto 20px;
+  position: relative;
+}
+
+.agentImage {
+  width: 200px;
+  height: auto;
+  opacity: 0.5;
+}
+
+.comingSoon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.featureList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.featureList li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
